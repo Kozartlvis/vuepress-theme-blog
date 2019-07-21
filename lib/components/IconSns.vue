@@ -5,6 +5,9 @@ const nameMap = {
   'github': {
     title: 'GitHub',
   },
+  'bilibili': {
+    title: 'Bilibili',
+  },
   'gitlab': {
     title: 'GitLab',
   },
