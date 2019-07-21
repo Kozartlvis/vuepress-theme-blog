@@ -27,6 +27,14 @@
       >
         Vuepress
       </a>
+      <span>Theme by </span>
+
+      <a
+        href="https://github.com/meteorlxy/vuepress-theme-meteorlxy"
+        target="_blank"
+      >
+        vuepress-theme-meteorlxy
+      </a>
     </p>
   </footer>
 </template>
