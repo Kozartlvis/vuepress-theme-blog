@@ -1,7 +1,7 @@
 <template>
   <div class="main-div not-found">
     <h1>404 Not Found</h1>
-
+    <h2>QAQ</h2>
     <p>{{ $themeConfig.lang.notFound }}</p>
   </div>
 </template>

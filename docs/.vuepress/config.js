@@ -60,7 +60,7 @@ module.exports = {
       location: 'Shanghai,China',
 
       // 组织
-      // organization: 'Xi\'an Jiao Tong University',
+      organization: 'SUES',
 
       // 头像
       // 设置为外部链接
