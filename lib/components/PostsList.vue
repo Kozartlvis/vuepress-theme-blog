@@ -71,7 +71,7 @@ export default {
 
   computed: {
     perPage () {
-      return this.$themeConfig.pagination.perPage || 5
+      return this.$themeConfig.pagination.perPage || 8
     },
 
     total () {
