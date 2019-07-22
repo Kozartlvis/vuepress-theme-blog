@@ -293,7 +293,7 @@ npm run build
 
 ## 主题语言
 
-你可以前往 [Blogs that use this theme](2019-02-01-demo-blogs.md) 来看看使用不同语言的效果。
+你可以前往 [Blogs that use this theme](../.vuepress/backup/2019-02-01-demo-blogs.md) 来看看使用不同语言的效果。
 
 ### 引入预设的语言包
 
@@ -435,7 +435,7 @@ vssue-id: 1
 
 如果你想要关闭某篇博文下的评论，在 frontmatter 中设置 `vssue: false` 即可：
 
-> 你可以前往 [Disable Comments](2019-01-20-disable-comments.md) 查看禁用某一篇文章评论的效果。
+> 你可以前往 [Disable Comments](../.vuepress/backup/2019-01-20-disable-comments.md) 查看禁用某一篇文章评论的效果。
 
 ```md {7}
 ---

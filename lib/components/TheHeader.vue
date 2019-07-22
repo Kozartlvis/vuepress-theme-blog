@@ -8,7 +8,10 @@
     <TransitionFadeSlide>
       <TheHeaderBanner :key="$route.path">
         <slot>
-          <h1 v-if="showTitle">
+          <h1
+            v-if="showTitle"
+            v-html=" $page.frontmatter.title || $page.title || $site.title || '' "
+          >
             {{ $page.frontmatter.title || $page.title || $site.title || '' }}
           </h1>
         </slot>

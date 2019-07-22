@@ -22,10 +22,12 @@ export default {
   height $bannerHeight
   border-bottom 1px solid $borderColor
   color $headerTitleColor
+  font-family 华文行楷
   .container
     height 100%
     display flex
     align-items center
+    /*font-family 华文行楷*/
     justify-content center
     .center
       z-index 19

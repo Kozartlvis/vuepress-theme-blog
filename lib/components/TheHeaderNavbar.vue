@@ -9,6 +9,7 @@
           <span
             v-if="$siteTitle"
             class="navbar-site-name"
+            v-html="$siteTitle"
           >
             {{ $siteTitle }}
           </span>
