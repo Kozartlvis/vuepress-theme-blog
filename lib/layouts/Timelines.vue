@@ -1,6 +1,36 @@
 <template>
   <div class="custom-pages">
     <div class="main-div">
+      <!--      <div-->
+      <!--        v-if="listPosts.length === 0"-->
+      <!--        class="no-posts"-->
+      <!--        key="no-posts"-->
+      <!--      >-->
+      <!--        {{ $themeConfig.lang.noRelatedPosts }}-->
+      <!--      </div>-->
+
+      <!--      <div-->
+      <!--        v-else-->
+      <!--        class="posts-items"-->
+      <!--        :key="page"-->
+      <!--      >-->
+      <!--        <hzqing-vue-timeline-->
+      <!--          timelineColor="#5bbcd5"-->
+      <!--          timeContentColor="#fff"-->
+      <!--          :dataList="pagePosts"-->
+      <!--        ></hzqing-vue-timeline>-->
+      <!--      </div>-->
+      <!--      <div-->
+      <!--        v-if="total > 1"-->
+      <!--        class="posts-paginator"-->
+      <!--      >-->
+      <!--        <Pagination-->
+      <!--          v-model="page"-->
+      <!--          :total="total"-->
+      <!--        />-->
+      <!--      </div>-->
+      <!--    </div>-->
+
       <div
         v-if="listPosts.length === 0"
         class="no-posts"
