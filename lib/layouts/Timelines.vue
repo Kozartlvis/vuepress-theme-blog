@@ -143,8 +143,4 @@ export default {
 
 <style scoped>
 
-  /*                 .create-date*/
-  /*                 float left*/
-  /*                 .update-date*/
-  /*                 float right*/
 </style>

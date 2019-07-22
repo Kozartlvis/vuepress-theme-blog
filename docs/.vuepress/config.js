@@ -177,7 +177,7 @@ module.exports = {
       { text: '首页', link: '/', exact: true },
       { text: '投稿', link: '/posts/', exact: false },
       { text: '时间线', link: '/timelines/', exact: false },
-      { text: '视频', link: '/video/', exact: false },
+      { text: '个人简介', link: 'https://www.kozartlvis.com/resume/', exact: false },
     ],
 
   },
