@@ -182,11 +182,12 @@ module.exports = {
 
   },
   comments: {
-    owner: 'meteorlxy',
-    repo: 'vuepress-theme-meteorlxy',
-    clientId: 'cbda894952ba70c00666',
-    clientSecret: '1ade785ca693bf3092be5e5338720d5ee43672b7',
-    autoCreateIssue: false,
+    owner: 'kozartlvis',
+    repo: 'vuepress-theme-blog',
+    clientId: 'f77fbf388620d7c9382f',
+    clientSecret: '6429499c17e6047771b979a3dafe17d0e6d10453',
+    // autoCreateIssue: false,
+    autoCreateIssue: process.env.NODE_ENV !== 'development',
   },
 
   pagination: {
