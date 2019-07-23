@@ -128,6 +128,7 @@ export default {
     headerStyle () {
       return {
         'background-image': !this.$ssrContext ? GeoPattern.generate(this.nickname, { color: '#eee' }).toDataUrl() : null,
+        // 'background-image':'/img/info-header.jpg'
       }
     },
   },

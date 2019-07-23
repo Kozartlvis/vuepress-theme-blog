@@ -32,6 +32,7 @@ export default {
     .center
       z-index 19
       text-align center
+      font-size 20px
       transition all 0.2s ease-in-out
       &:hover
         transform scale(1.2)
