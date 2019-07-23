@@ -13,11 +13,24 @@ module.exports = {
 
   evergreen: true,
 
-  // plugins: [
-  //   ['@vuepress/google-analytics', {
-  //     'ga': 'UA-132770851-2',
-  //   }],
-  // ],
+  plugins: {
+    '@vuepress/google-analytics': {
+      'ga': 'UA-144341735-1',
+    },
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: {
+        '/': {
+          message: 'QWQ有新的内容了yo',
+          buttonText: '刷新',
+        },
+        '/zh/': {
+          message: 'QWQ有新的内容了yo',
+          buttonText: '刷新',
+        },
+      },
+    },
+  },
 
   chainWebpack: (config, isServer) => {
     if (isServer === false) {

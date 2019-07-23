@@ -1,0 +1,17 @@
+{
+  "name": "Kozart's world",
+  "short_name": "Kozart's world",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#FFDF00",
+  "orientation": "natural",
+  "icons": [
+    {
+      "src": "/icon.jpg",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/"
+}

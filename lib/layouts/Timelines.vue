@@ -44,26 +44,28 @@
         class="posts-items"
         :key="page"
       >
-        <light-timeline :items="pagePosts">
-          <template
-            slot="tag"
-            slot-scope="{ item }"
-          >
-            {{ item.lastUpdated }}
-          </template>
-
-          <template
-            slot="content"
-            slot-scope="{ item }"
-          >
-            <RouterLink
-              :to="item.path"
-              class="post-link"
+        <ClientOnly>
+          <light-timeline :items="pagePosts">
+            <template
+              slot="tag"
+              slot-scope="{ item }"
             >
-              {{ item.title }}
-            </RouterLink>
-          </template>
-        </light-timeline>
+              {{ item.lastUpdated }}
+            </template>
+
+            <template
+              slot="content"
+              slot-scope="{ item }"
+            >
+              <RouterLink
+                :to="item.path"
+                class="post-link"
+              >
+                {{ item.title }}
+              </RouterLink>
+            </template>
+          </light-timeline>
+        </ClientOnly>
       </div>
       <div
         v-if="total > 1"
@@ -114,7 +116,7 @@ export default {
   created () {
     this.posts = this.$posts
 
-    console.log(this.posts)
+    // console.log(this.posts)
   },
   computed: {
     perPage () {
