@@ -196,12 +196,13 @@ module.exports = {
 
   },
   comments: {
-    owner: 'kozartlvis',
+    platform: 'github',
+    owner: 'Kozartlvis',
     repo: 'vuepress-theme-blog',
     clientId: 'f77fbf388620d7c9382f',
     clientSecret: '6429499c17e6047771b979a3dafe17d0e6d10453',
-    // autoCreateIssue: false,
-    autoCreateIssue: process.env.NODE_ENV !== 'development',
+    autoCreateIssue: false,
+    // autoCreateIssue: process.env.NODE_ENV !== 'development',
   },
 
   pagination: {
