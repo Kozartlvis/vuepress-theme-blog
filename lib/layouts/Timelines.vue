@@ -50,7 +50,7 @@
               slot="tag"
               slot-scope="{ item }"
             >
-              {{ item.lastUpdated }}
+              {{ item.createdAt }}
             </template>
 
             <template
@@ -116,7 +116,7 @@ export default {
   created () {
     this.posts = this.$posts
 
-    // console.log(this.posts)
+    console.log(this.posts)
   },
   computed: {
     perPage () {
