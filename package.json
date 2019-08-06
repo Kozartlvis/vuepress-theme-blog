@@ -28,17 +28,6 @@
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md",
     "publish": "git push origin master:master --tags"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,vue}": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -85,8 +74,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.3",
-    "husky": "^3.0.1",
-    "lint-staged": "^9.2.0",
     "vuepress": "^1.0.2"
   }
 }

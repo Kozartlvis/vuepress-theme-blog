@@ -168,10 +168,10 @@ module.exports = {
           account: '',
           link: 'https://www.csdn.net/',
         },
-        juejin: {
-          account: 'meteorlxy',
-          link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
-        },
+        // juejin: {
+        //   account: 'meteorlxy',
+        //   link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
+        // },
       },
     },
 
