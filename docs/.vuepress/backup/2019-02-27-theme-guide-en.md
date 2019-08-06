@@ -203,6 +203,18 @@ module.exports = {
           account: 'meteorlxy',
           link: 'https://hub.docker.com/u/meteorlxy',
         },
+
+        // CSDN account and link
+        csdn: {
+          account: '',
+          link: 'https://www.csdn.net/',
+        },
+
+        // Juejin account and link
+        juejin: {
+          account: 'meteorlxy',
+          link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
+        },
       },
     },
 
@@ -451,6 +463,24 @@ This is my first post.
 ::: tip
 If you are familiar with Vssue, `vssue-title` is the prop `title` of Vssue component, and `vssue-id` is the prop `issue-id` of Vssue component.
 :::
+
+### Draft post
+
+If your post is not finished and you don't want to show it in the posts list, set `draft: true` in the frontmatter:
+
+```md {2}
+---
+draft: true
+category: hello
+tags:
+  - world
+date: 2019-01-21
+title: Hello, world!
+vssue: false
+---
+
+This is an unfinished post.
+```
 
 ### Disable Comments
 
