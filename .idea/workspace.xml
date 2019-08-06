@@ -76,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/docs/_posts/2019-07-26-springboot项目下mybatis报错：invalid-bound-statement-not-found.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="660">
-                <caret line="22" column="100" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="105" />
+              <first_editor relative-caret-position="-690">
+                <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -124,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1721" />
-    <option name="y" value="15" />
+    <option name="x" value="-1648" />
+    <option name="y" value="118" />
     <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="height" value="782" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,8 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,6 +250,7 @@
       <workItem from="1563852465522" duration="13550000" />
       <workItem from="1564104009051" duration="1841000" />
       <workItem from="1564361558226" duration="25000" />
+      <workItem from="1564367081977" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="banner image">
       <created>1563864956767</created>
@@ -276,12 +277,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15416000" />
+    <option name="totallyTimeSpent" value="17784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,7 +299,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29609543" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20281996" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -538,8 +539,8 @@
     <entry file="file://$PROJECT_DIR$/docs/_posts/2019-07-26-springboot项目下mybatis报错：invalid-bound-statement-not-found.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="660">
-            <caret line="22" column="100" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="105" />
+          <first_editor relative-caret-position="-690">
+            <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>

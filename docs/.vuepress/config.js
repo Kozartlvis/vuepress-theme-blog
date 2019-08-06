@@ -164,6 +164,14 @@ module.exports = {
           account: 'kozartlvis',
           link: 'https://space.bilibili.com/32268802',
         },
+        csdn: {
+          account: '',
+          link: 'https://www.csdn.net/',
+        },
+        juejin: {
+          account: 'meteorlxy',
+          link: 'https://juejin.im/user/5c6fa9dde51d453fcb7baf09',
+        },
       },
     },
 
