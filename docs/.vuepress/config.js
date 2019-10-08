@@ -17,19 +17,19 @@ module.exports = {
     '@vuepress/google-analytics': {
       'ga': 'UA-144341735-1',
     },
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: {
-        '/': {
-          message: 'QWQ有新的内容了yo',
-          buttonText: '刷新',
-        },
-        '/zh/': {
-          message: 'QWQ有新的内容了yo',
-          buttonText: '刷新',
-        },
-      },
-    },
+    // '@vuepress/pwa': {
+    //   serviceWorker: true,
+    //   updatePopup: {
+    //     '/': {
+    //       message: 'QWQ有新的内容了yo',
+    //       buttonText: '刷新',
+    //     },
+    //     '/zh/': {
+    //       message: 'QWQ有新的内容了yo',
+    //       buttonText: '刷新',
+    //     },
+    //   },
+    // },
   },
 
   chainWebpack: (config, isServer) => {
@@ -77,9 +77,9 @@ module.exports = {
 
       // 头像
       // 设置为外部链接
-      avatar: 'https:////i0.hdslb.com/bfs/face/c064a6f0a4d13bf5b2dcb3ea0a3e3a8219a257a8.jpg',
+      // avatar: 'https:////i0.hdslb.com/bfs/face/c064a6f0a4d13bf5b2dcb3ea0a3e3a8219a257a8.jpg',
       // 或者放置在 .vuepress/public 文件夹，例如 .vuepress/public/img/avatar.jpg
-      // avatar: '/img/avatar.jpg',
+      avatar: '/avator/avatar.jpg',
 
       // 社交平台帐号信息
       sns: {
